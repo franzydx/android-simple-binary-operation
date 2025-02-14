@@ -1,3 +1,20 @@
+# Layout
+
+## Daftar elemen yang akan dibuat
+
+1. Input bilangan biner dari pengguna 
+   
+- Button untuk memasukan bilangan biner kesatu
+
+- Button untuk memasukan bilangan biner kedua 
+
+2. Pilihan untuk memilih operasi matematika yang akan digunakan
+
+- opsi 1 adalah penambahan
+- opsi kedua untuk pengurangan
+
+3. Output hasil akhir
+
 # Logic
 
 Create variable for data each element 
