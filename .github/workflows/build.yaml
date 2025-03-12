@@ -1,0 +1,24 @@
+name: Build Apps
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug_build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repo
+      uses: actions/workflow@v4
+  
+    - name: Debug APK
+      run: |
+        chmod +x ./gradlew
+        ./gradlew :app:assembleDebug
+  
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: debug-apk
+        path: app/build/
+      
