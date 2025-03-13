@@ -4,7 +4,14 @@ Aplikasi sederhana untuk melakukan operasi pertambahan dan pengurangan bilangan 
 
 Repository ini bertujuan untuk memenuhi tugas mata kuliah **Organisasi dan Arsitektur Komputer**
 
+## How to Use
 
+Fork atau clone repositori ini.
+- Pergi ke bagian `actions`
+- Kemudian pilih `Build Apps`
+- Jalankan workflow dengan `Run workflow`
+- Download file `.apk` pada bagian artifacts
+  
 ## Docs
 
 [Baca disini](docs/README.md) 
